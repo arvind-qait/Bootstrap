@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registartion Form</title>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="/home/qainfotech/Desktop/Arvind/bootstrap/style.css">
+</head>
+<body>
+	<div class="container">
+		<div class="row r2">
+			<div class="col-md-3"></div>
+			<div class="col-md-6">
+				<center><h1>Registration Form</h1></center><br><br>
+				<form>
+					<div class="row r2">
+						<div class="col-md-6">
+							<div class="form-group">
+								<label>First Name</label>
+								<input type="text" name="fname" class="form-control" placeholder="First Name">
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="form-group">
+								<label>Last Name</label>
+								<input type="text" name="fname" class="form-control" placeholder="First Name">
+							</div>
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="email">Email</label>
+						<input type="email" name="email" class="form-control" placeholder="Enter Email">
+					</div>
+					<div class="row r2">
+						<div class="col-md-6">
+							<div class="form-group">
+								<label>Password</label>
+								<input type="password" name="pass" class="form-control" placeholder="Enter Password">
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="form-group">
+								<label>Retype Password</label>
+								<input type="password" name="pass1" class="form-control" placeholder="Retype password">
+							</div>
+						</div>
+					</div>
+
+					<div class="form-group">
+						<label>Gender </label><br>
+						<label class="radio-inline"><input type="radio" name="gender"> Male</label>
+						<label class="radio-inline"><input type="radio" name="gender"> Female</label>
+						<label class="radio-inline"><input type="radio" name="gender"> Other</label>
+					</div>
+					<div class="row r2	">
+						<div class="col-md-6">
+							<div class="form-group">
+								<label>Date of Birth</label>
+								<input type="date" name="date" class="form-control">
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="form-group">
+								<label>Mobile No</label>
+								<input type="number" name="mob" class="form-control">
+							</div>
+						</div>
+					</div>
+					<div class="form-group">
+						<label>Language</label><br>
+						<label class="checkbox-inline"><input type="checkbox" name="lang1"> Hindi</label>
+						<label class="checkbox-inline"><input type="checkbox" name="lang2"> English</label>
+						<label class="checkbox-inline"><input type="checkbox" name="lang3"> Japanese</label>
+						<label class="checkbox-inline"><input type="checkbox" name="lang4"> Other</label>
+					</div>
+					<div class="form-group">
+    					<label for="sel1">Select list:</label>
+    					<select class="form-control" id="sel1">
+    						<option>India</option>
+    						<option>USA</option>
+    						<option>Australia</option>
+    						<option>Other</option>
+  							</select>
+					</div>
+					<div class="form-group">
+						<label>Choose Image</label>
+						<input type="file" name="img22" >						
+					</div>
+					<button type="submit" class="btn btn-success btn2">Submit</button><br><br>
+					<label>Already have Account?</label>
+					<a href="./loginPage.html">
+						<button class="btn btn-success">Sign In</button>
+					</a>
+				</form>					
+			</div>
+			<div class="col-md-3"></div>
+		</div>
+	</div>
+</body>
+</html>

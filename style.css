@@ -1,0 +1,46 @@
+body{
+	background-color: #3F4F4F;
+}
+
+
+.btn2{
+	width: 100%;
+	color: #000080;
+}
+
+.img{
+	margin-top: 50px;
+	border-radius: 105px;	
+}
+.row{
+	color: #FFFFFF;
+}
+
+h1{
+	margin-top: 50px;
+	color: #008080 	;
+	font-family: "Comic Sans MS", Times, serif;
+}
+.r2{
+	color: #2E8B57;
+	font-family: "Times New Roman", Times, serif;
+
+}
+.img22{
+	height: 30px;
+
+}
+.img_building{
+	width: 100%;
+}
+#about{
+	padding-top: 50px;
+	padding-left: 100px;
+	padding-right: 100px;
+	padding-bottom: 50px;
+}
+.footer1{
+	height: 80px;
+	font-size: 30px;
+	background-color: #008080;
+}
